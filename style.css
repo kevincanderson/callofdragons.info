@@ -4,7 +4,12 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 1em;
-    background-color: #ddd;
+    background-color: #eee;
+    color: #444;
+  }
+
+  header {
+    margin: .5rem 0 1rem;
   }
 
   h1 {
@@ -42,9 +47,13 @@
         text-transform: uppercase;
     }
 
+    .skills {
+      width: 50%;
+    }
+
     .skill {
         border: 1px solid #444;
-        margin: 1rem 0;
-        padding: 1rem;
+        margin: .5rem 0;
+        padding: .5rem 1rem;
     }
 
