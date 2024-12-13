@@ -1,2 +1,4 @@
-# ignore ALL files in ANY directory named temp
+# ignore ALL files in ANY directory named images
 images/
+# ignore ALL files in ANY directory named artifacts
+artifacts/
