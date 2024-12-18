@@ -115,7 +115,7 @@ header {
 }
 
 .hero-container {
-  max-width: 125px;
+  max-width: 100px;
   padding: .25rem;
   border: 1px solid black;
   margin: 1rem;
