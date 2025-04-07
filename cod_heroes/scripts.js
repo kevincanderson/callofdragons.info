@@ -46,6 +46,7 @@ fetch('heroes.json')
         <p class="hero-specialization">${hero.specializations.specializationOne} | ${hero.specializations.specializationTwo} | ${hero.specializations.specializationThree}</p>
         </div>
         <div class="hero-info-bottom">
+        <img src="faction-icons/${hero.faction}.png" class="faction-icon">
         <p class="hero-rarity-${hero.rarity}">${hero.rarity}</p>
         </div>
         </div>

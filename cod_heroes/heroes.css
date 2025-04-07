@@ -11,11 +11,20 @@ body {
     margin: 0 auto;
 }
 
+header {
+    margin: 0 auto;
+}
+
+.header-title {
+    margin: 1rem auto;
+    text-align: center;
+}
+
 #heroes-container {
   display: flex;
   flex-wrap: wrap;
   flex-direction: row;
-  justify-content: space-evenly;
+  justify-content: center;
   flex-basis: 1;
 }
 
@@ -25,7 +34,6 @@ body {
     justify-content: space-between;
     width: 350px;
     height: 200px;
-    /* padding: 1rem 1rem 1rem 1rem; */
     margin: .5rem;
     border: 1px solid #333;
     overflow: hidden;
@@ -40,15 +48,7 @@ body {
     
 }
 
-.hero-info-top {
-    align-items: flex-start;
-    widhth: 100%;
-}
 
-.hero-info-top {
-    align-items: flex-end;
-    widhth: 100%;
-}
 
 .hero-title {
     overflow-wrap: normal;
@@ -70,22 +70,26 @@ body {
     font-size: .75rem;
 }
 
+.faction-icon {
+    height: 33px;
+    display: block;
+    margin: .5rem 0;
+}
+
 .hero-rarity-rare {
     background-color: #0000ff;
     text-transform: uppercase;
     padding: 0.1rem .5rem;
-    max-width: 100%;
     font-size: .8rem;
-    display:inline-block
+    display:inline-block;
 }
 
 .hero-rarity-epic {
     background-color: #FF4500;
     text-transform: uppercase;
     padding: 0.1rem .5rem;
-    max-width: 100%;
     font-size: .8rem;
-    display:inline-block
+    display:inline-block;
 }
 
 
@@ -93,9 +97,8 @@ body {
     background-color: #FFD700;
     text-transform: uppercase;
     padding: 0.1rem .5rem;
-    max-width: 100%;
     font-size: .8rem;
-    display:inline-block
+    display:inline-block;
 }
 
 
@@ -103,9 +106,10 @@ body {
 .hero-image-container {
     z-index: -1;
     height: 100%;
-    width: 25%;
+    width: 35%;
     display: flex;
     justify-content: center;
+    padding: 0.2rem;
     
     
 }

@@ -9,7 +9,7 @@
         },
 		"heroTitle": "Royal Court Guard",
 		"heroRelease": "G1",
-		"faction": "League of Order",
+		"faction": "leagueOfOrder",
 		"factionCrest": "",
 		"skills": {
 			"skillOne": "Spear of Judgment",
@@ -136,7 +136,7 @@
         },
 		"heroTitle": "Master Strategist",
 		"heroRelease": "G2",
-		"faction": "League of Order",
+		"faction": "leagueofOrder",
 		"factionCrest": "",
 		"skills": {
 			"skillOne": "Shadowed Spike",
@@ -167,7 +167,7 @@
         },
 		"heroTitle": "Lightbearer",
 		"heroRelease": "G3",
-		"faction": "League of Order",
+		"faction": "leagueofOrder",
 		"factionCrest": "",
 		"skills": {
 			"skillOne": "Eos",
