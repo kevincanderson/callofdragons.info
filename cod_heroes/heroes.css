@@ -25,15 +25,14 @@ header {
   flex-wrap: wrap;
   flex-direction: row;
   justify-content: center;
-  flex-basis: 1;
 }
 
 .hero-card {
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    width: 350px;
-    height: 200px;
+    width: 325px;
+    height: 175px;
     margin: .5rem;
     border: 1px solid #333;
     overflow: hidden;
@@ -56,7 +55,10 @@ header {
     text-transform: uppercase;
     font-size: .8rem;
 }
-
+.hero-link {
+    text-decoration: none;
+    color:#333;
+}
 .hero-name {
     overflow-wrap: normal;
     white-space: nowrap;

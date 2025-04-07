@@ -1,6 +1,6 @@
 [
 	{
-		"name": "Alistair",
+		"name": "alistair",
 		"heroImage": "",
 		"specializations": {
             "specializationOne": "Cavalry",
@@ -31,7 +31,7 @@
 		"quickGuide": ""
 	},
 	{
-		"name": "Bakshi",
+		"name": "bakshi",
 		"heroImage": "",
 		"specializations": {
 			"specializationOne": "Cavalry",
@@ -62,7 +62,7 @@
 		"quickGuide": "Run Emrys as Primary. Focus on building rage cycles and doing damage. Don't get caught in battle too long or you will end up very hurt."
 	},
 	{
-		"name": "Emrys",
+		"name": "emrys",
 		"heroImage": "",
 		"specializations": {
             "specializationOne": "Cavalry",
@@ -95,7 +95,7 @@
 		"quickGuide": "Run Emrys as Primary. Focus on building rage cycles and doing damage. Don't get caught in battle too long or you will end up very hurt."
 	},
 	{
-		"name": "Forondil",
+		"name": "forondil",
 		"heroImage": "",
 		"specializations": {
             "specializationOne": "Cavalry",
@@ -127,7 +127,7 @@
 		"quickGuide": ""
 	},
 	{
-		"name": "Theodore",
+		"name": "theodore",
 		"heroImage": "",
 		"specializations": {
             "specializationOne": "Cavalry",
@@ -158,7 +158,7 @@
 		"quickGuide": ""
 	},
 	{
-		"name": "Tobin",
+		"name": "tobin",
 		"heroImage": "",
 		"specializations": {
             "specializationOne": "Cavalry",
@@ -190,7 +190,7 @@
 		"quickGuide": ""
 	},
 	{
-		"name": "Urag",
+		"name": "urag",
 		"heroImage": "",
 		"specializations": {
             "specializationOne": "Cavalry",
@@ -218,6 +218,1091 @@
 		"pairings": [
 			"Tobin",
 			"Emrys"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "liliya",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "peacekeeping",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "Sorceress of Flames",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Flames of Vengence",
+			"skillTwo": "Dazzling Inferno",
+			"skillThree": "Deep Burn",
+			"skillFour": "Witchy Wiles",
+			"awakened": "Burning Blood"
+		},
+		"artifacts": [
+			"Infernal Flame"
+		],
+		"pets": [
+			"Sapphire Faedrake"
+		],
+		"pairings": [
+			"Velyn"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "kinnara",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "pvp",
+            "specializationThree": "control"
+        },
+		"heroTitle": "flying dagger",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Rattlesnake Strike",
+			"skillTwo": "Provocation",
+			"skillThree": "Hunter's Pace",
+			"skillFour": "Gratuitous Violence",
+			"awakened": "Jawbreaker"
+		},
+		"artifacts": [
+			"Rattlespear"
+		],
+		"pets": [
+			"Night Roc"
+		],
+		"pairings": [
+			"Velyn"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "indis",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "gather",
+            "specializationThree": "support"
+        },
+		"heroTitle": "Sage of Order",
+		"heroRelease": "G1",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Axiom of Glory",
+			"skillTwo": "Earthen Balance",
+			"skillThree": "Rejuvenating Blessing",
+			"skillFour": "Purge",
+			"awakened": "Oaken Order"
+		},
+		"artifacts": [
+			"Infernal Flame"
+		],
+		"pets": [
+			"Sapphire Faedrake"
+		],
+		"pairings": [
+			"Velyn"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "nika",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "peacekeeping",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "Snow Owl",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Shimmerstrike",
+			"skillTwo": "Assassin's Covenant",
+			"skillThree": "Night Prowler",
+			"skillFour": "Blade Maelstrom",
+			"awakened": "Total Slaughter"
+		},
+		"artifacts": [
+			"Dragonrift"
+		],
+		"pets": [
+			"Venomous Lizard"
+		],
+		"pairings": [
+			"Skogul"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "ffraegar",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "peacekeeping",
+            "specializationThree": "mobility"
+        },
+		"heroTitle": "Wandering Storm",
+		"heroRelease": "G2",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "",
+			"skillTwo": "",
+			"skillThree": "Deep Burn",
+			"skillFour": "Witchy Wiles",
+			"awakened": "Burning Blood"
+		},
+		"artifacts": [
+			"Infernal Flame"
+		],
+		"pets": [
+			"Night Roc"
+		],
+		"pairings": [
+			"Syndrion"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "velyn",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "pvp",
+            "specializationThree": "control"
+        },
+		"heroTitle": "Frost Scion",
+		"heroRelease": "G1",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Flames of Vengence",
+			"skillTwo": "Dazzling Inferno",
+			"skillThree": "Deep Burn",
+			"skillFour": "Witchy Wiles",
+			"awakened": "Burning Blood"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Sapphire Faedrake"
+		],
+		"pairings": [
+			"Liliya"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "garwood",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "garrison",
+            "specializationThree": "tank"
+        },
+		"heroTitle": "Forest Guardian",
+		"heroRelease": "G1",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Revitalizing Rune",
+			"skillTwo": "Tempered Bark",
+			"skillThree": "Call of the Ancient Tree",
+			"skillFour": "Thistles and Thorns",
+			"awakened": "Lifestone"
+		},
+		"artifacts": [
+			""
+		],
+		"pets": [
+			"Sapphire Faedrake"
+		],
+		"pairings": [
+			"Liliya"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "nico",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "engineering",
+            "specializationThree": "precision"
+        },
+		"heroTitle": "Eyes of Daybreak",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "theia",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "pvp",
+            "specializationThree": "support"
+        },
+		"heroTitle": "Unchanging Law",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "skogul",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "pvp",
+            "specializationThree": "mobility"
+        },
+		"heroTitle": "Scarlet Scimitar",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "pan",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "gather",
+            "specializationThree": "support"
+        },
+		"heroTitle": "Dream Herald",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "gwanwyn",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "peacekeeping",
+            "specializationThree": "precision"
+        },
+		"heroTitle": "Arrow of the Wind",
+		"heroRelease": "G1",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "waldyr",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "pvp",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "Ice Mage",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "eliana",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "peacekeeping",
+            "specializationThree": "support"
+        },
+		"heroTitle": "Daughter of Dawn",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "bakhar",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "garrison",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "Unyielding Blade",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "alwyn",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "pvp",
+            "specializationThree": "control"
+        },
+		"heroTitle": "master of poisons",
+		"heroRelease": "G1",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "naernin",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "gather",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "Black Claw",
+		"heroRelease": "G1",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "kregg",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "engineering",
+            "specializationThree": "mobility"
+        },
+		"heroTitle": "Mad Bomber",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "tarra",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overal;",
+            "specializationTwo": "gather",
+            "specializationThree": "support"
+        },
+		"heroTitle": "Healer of the Humble",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "atheus",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "PvP",
+            "specializationThree": "mobility"
+        },
+		"heroTitle": "Auspex",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "kella",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "gather",
+            "specializationThree": "support"
+        },
+		"heroTitle": "Savvy Trader",
+		"heroRelease": "G1",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "rare",
+		"quickGuide": ""
+	},
+	{
+		"name": "chakcha",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "gather",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "Gourmet Hunter",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "rare",
+		"quickGuide": ""
+	},
+	{
+		"name": "ordo",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "engineering",
+            "specializationThree": "tank"
+        },
+		"heroTitle": "One-Eyed Veteran",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "rare",
+		"quickGuide": ""
+	},
+	{
+		"name": "syndrion",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "rally",
+            "specializationThree": "precision"
+        },
+		"heroTitle": "green feather",
+		"heroRelease": "G2",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "danfel",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "pvp",
+            "specializationThree": "tank"
+        },
+		"heroTitle": "tiny juggernaut",
+		"heroRelease": "G3",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "bahorn",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "pvp",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "Airborne Innovator",
+		"heroRelease": "G2",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "madeline",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "pvp",
+            "specializationThree": "tank"
+        },
+		"heroTitle": "sword of the kingdom",
+		"heroRelease": "G2",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "hosk",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "overall",
+            "specializationTwo": "rally",
+            "specializationThree": "precision"
+        },
+		"heroTitle": "mighty general",
+		"heroRelease": "G1",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "goresh",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "rally",
+            "specializationThree": "tank"
+        },
+		"heroTitle": "Tormentor",
+		"heroRelease": "G3",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "bertrand",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "pvp",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "golden child",
+		"heroRelease": "G2",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "tohar",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "garrison",
+            "specializationThree": "support"
+        },
+		"heroTitle": "wit of wilderburg",
+		"heroRelease": "G2",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "zayda",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "pvp",
+            "specializationThree": "mobility"
+        },
+		"heroTitle": "starfall sniper",
+		"heroRelease": "G3",
+		"faction": "leagueOfOrder",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "maggrat",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "marksman",
+            "specializationTwo": "garrison",
+            "specializationThree": "precision"
+        },
+		"heroTitle": "seer of spores",
+		"heroRelease": "G3",
+		"faction": "wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "mogro",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "infantry",
+            "specializationTwo": "garrison",
+            "specializationThree": "skills"
+        },
+		"heroTitle": "fury of the forest",
+		"heroRelease": "G3",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "thundelyn",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "magic",
+            "specializationTwo": "pvp",
+            "specializationThree": "control"
+        },
+		"heroTitle": "lady of storms",
+		"heroRelease": "G3",
+		"faction": "springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Piercing Shot",
+			"skillTwo": "Expert Mechanic",
+			"skillThree": "Agile Deployment",
+			"skillFour": "Greymar's Ballista",
+			"awakened": "Bullseye Barrage"
+		},
+		"artifacts": [
+			"Phoenix Eye"
+		],
+		"pets": [
+			"Snowpeak Roc"
+		],
+		"pairings": [
+			"Kinnara"
 		],
 		"rarity": "legendary",
 		"quickGuide": ""
