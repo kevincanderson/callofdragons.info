@@ -1,0 +1,120 @@
+
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+  font-family: "Merriweather", serif;
+}
+
+body {
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+#heroes-container {
+  display: flex;
+  flex-wrap: wrap;
+  flex-direction: row;
+  justify-content: space-evenly;
+  flex-basis: 1;
+}
+
+.hero-card {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 350px;
+    height: 200px;
+    /* padding: 1rem 1rem 1rem 1rem; */
+    margin: .5rem;
+    border: 1px solid #333;
+    overflow: hidden;
+}
+
+.hero-info-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    width: 75%;
+    padding: 1rem;
+    
+}
+
+.hero-info-top {
+    align-items: flex-start;
+    widhth: 100%;
+}
+
+.hero-info-top {
+    align-items: flex-end;
+    widhth: 100%;
+}
+
+.hero-title {
+    overflow-wrap: normal;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: .8rem;
+}
+
+.hero-name {
+    overflow-wrap: normal;
+    white-space: nowrap;
+    text-transform: uppercase;
+}
+
+.hero-specialization {
+    overflow-wrap: normal;
+    white-space: nowrap;
+    text-transform: uppercase;
+    font-size: .75rem;
+}
+
+.hero-rarity-rare {
+    background-color: #0000ff;
+    text-transform: uppercase;
+    padding: 0.1rem .5rem;
+    max-width: 100%;
+    font-size: .8rem;
+    display:inline-block
+}
+
+.hero-rarity-epic {
+    background-color: #FF4500;
+    text-transform: uppercase;
+    padding: 0.1rem .5rem;
+    max-width: 100%;
+    font-size: .8rem;
+    display:inline-block
+}
+
+
+.hero-rarity-legendary {
+    background-color: #FFD700;
+    text-transform: uppercase;
+    padding: 0.1rem .5rem;
+    max-width: 100%;
+    font-size: .8rem;
+    display:inline-block
+}
+
+
+
+.hero-image-container {
+    z-index: -1;
+    height: 100%;
+    width: 25%;
+    display: flex;
+    justify-content: center;
+    
+    
+}
+
+.hero-image {
+    max-height: 100%;
+    z-index: -1;
+    opacity: 0.7;
+    align-items: center;
+}
+
+

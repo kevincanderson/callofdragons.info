@@ -111,14 +111,15 @@ header {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
-  justify-content: space-around;
+  justify-content: space-evenly;
+
 }
 
 .hero-container {
   max-width: 100px;
   padding: .25rem;
   border: 1px solid black;
-  margin: 1rem;
+  margin: .5rem;
 }
 
 .hero-container a {
@@ -132,8 +133,6 @@ header {
 
 .hero-image {
   border: 1px solid black;
-  width: 100%;
-
 }
 
 .hero-image img {

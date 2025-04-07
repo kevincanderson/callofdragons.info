@@ -1,0 +1,225 @@
+[
+	{
+		"name": "Alistair",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "Cavalry",
+            "specializationTwo": "Rally",
+            "specializationThree": "Tank"
+        },
+		"heroTitle": "Royal Court Guard",
+		"heroRelease": "G1",
+		"faction": "League of Order",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Spear of Judgment",
+			"skillTwo": "Devotion",
+			"skillThree": "Hold the Line",
+			"skillFour": "Light of Sorland",
+			"awakened": "Chivalric Oath"
+		},
+		"artifacts": [
+			"Wolf-Howl Horn"
+		],
+		"pets": [
+			"Golden Roc"
+		],
+		"pairings": [
+			"Theodore"
+		],
+		"rarity": "epic",
+		"quickGuide": ""
+	},
+	{
+		"name": "Bakshi",
+		"heroImage": "",
+		"specializations": {
+			"specializationOne": "Cavalry",
+			"specializationTwo": "Peacekeeping",
+			"specializationThree": "Skills"
+		},
+		"heroTitle": "Wolf Hermit",
+		"heroRelease": "G1",
+		"faction": "Wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Wolf-Spirit Binds",
+			"skillTwo": "Sense Weakness",
+			"skillThree": "Quickened Blood",
+			"skillFour": "Shaman's Call",
+			"awakened": "Howl of the Wolf Spirit"
+		},
+		"artifacts": [
+			"Springblades"
+		],
+		"pets": [
+			"Golden Roc"
+		],
+		"pairings": [
+			"Emrys"
+		],
+		"rarity": "legendary",
+		"quickGuide": "Run Emrys as Primary. Focus on building rage cycles and doing damage. Don't get caught in battle too long or you will end up very hurt."
+	},
+	{
+		"name": "Emrys",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "Cavalry",
+            "specializationTwo": "PvP",
+            "specializationThree": "Mobility"
+        },
+		"heroTitle": "Shadow Warlord",
+		"heroRelease": "G1",
+		"faction": "Springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Shattering Blow",
+			"skillTwo": "Watcher's Blade",
+			"skillThree": "Penumbra",
+			"skillFour": "Shadow Raid",
+			"awakened": "Springblade"
+		},
+		"artifacts": [
+			"Springblades"
+		],
+		"pets": [
+			"Golden Roc"
+		],
+		"pairings": [
+			"Bakshi",
+			"Urag",
+			"Alistair"
+		],
+		"rarity": "legendary",
+		"quickGuide": "Run Emrys as Primary. Focus on building rage cycles and doing damage. Don't get caught in battle too long or you will end up very hurt."
+	},
+	{
+		"name": "Forondil",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "Cavalry",
+            "specializationTwo":"PvP",
+            "specializationThree": "Mobility"
+        },
+		"heroTitle": "Warden of the Four Plagues",
+		"heroRelease": "G2",
+		"faction": "Springwardens",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Shattering Screech",
+			"skillTwo": "Death from Above",
+			"skillThree": "Song of Swiftness",
+			"skillFour": "Aiming High",
+			"awakened": "Avian Splendor"
+		},
+		"artifacts": [
+			"Kingslayer"
+		],
+		"pets": [
+			"Berserk Faedrake"
+		],
+		"pairings": [
+			"Theodore",
+			"Kinnara"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "Theodore",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "Cavalry",
+            "specializationTwo": "Garrison",
+            "specializationThree": "Skills"
+        },
+		"heroTitle": "Master Strategist",
+		"heroRelease": "G2",
+		"faction": "League of Order",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Shadowed Spike",
+			"skillTwo": "Traitor's Ambition",
+			"skillThree": "Royal Writ",
+			"skillFour": "Coup de Grace",
+			"awakened": "Weaver of Intrigue"
+		},
+		"artifacts": [
+			"Kingslayer"
+		],
+		"pets": [
+			"Berserk Faedrake"
+		],
+		"pairings": [
+			"Forondil"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "Tobin",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "Cavalry",
+            "specializationTwo": "Rally",
+            "specializationThree": "Tank"
+        },
+		"heroTitle": "Lightbearer",
+		"heroRelease": "G3",
+		"faction": "League of Order",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Eos",
+			"skillTwo": "Light of the Tower",
+			"skillThree": "Oath of the Heart",
+			"skillFour": "All-Piercing Light",
+			"awakened": "Shared Calling"
+		},
+		"artifacts": [
+			"Sorland's Blade"
+		],
+		"pets": [
+			"Blade Manticore",
+			"Golden Roc"
+		],
+		"pairings": [
+			"Urag"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	},
+	{
+		"name": "Urag",
+		"heroImage": "",
+		"specializations": {
+            "specializationOne": "Cavalry",
+            "specializationTwo": "PvP",
+            "specializationThree": "Skills"
+        },
+		"heroTitle": "One-Armed Wolf Lord",
+		"heroRelease": "G3",
+		"faction": "Wilderburg",
+		"factionCrest": "",
+		"skills": {
+			"skillOne": "Lead the Charge",
+			"skillTwo": "Wolf Lord's Will",
+			"skillThree": "Forever Onwards",
+			"skillFour": "Fearsome Flail",
+			"awakened": "Ancestral Heritage"
+		},
+		"artifacts": [
+			"Sorland's Blade"
+		],
+		"pets": [
+			"Blade Manticore",
+			"Golden Roc"
+		],
+		"pairings": [
+			"Tobin",
+			"Emrys"
+		],
+		"rarity": "legendary",
+		"quickGuide": ""
+	}
+]
