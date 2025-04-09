@@ -1,125 +1,149 @@
 
 * {
-  box-sizing: border-box;
-  padding: 0;
-  margin: 0;
-  font-family: "Merriweather", serif;
-}
-
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+    font-family: "Merriweather", serif;
+  }
+  
 body {
-    max-width: 1280px;
-    margin: 0 auto;
+    background-color: #f0f0f0;
+    color: #333;
+    line-height: 1.6;
+    font-size: 16px;
+
+    margin: 1rem;
 }
 
-header {
-    margin: 0 auto;
+select {
+  appearance: base-select;
+  width: 325px;
 }
 
-.header-title {
-    margin: 1rem auto;
-    text-align: center;
-}
-
-#heroes-container {
-  display: flex;
-  flex-wrap: wrap;
-  flex-direction: row;
-  justify-content: center;
-}
-
-.hero-card {
-    display: flex;
-    flex-direction: row;
-    justify-content: space-between;
-    width: 325px;
-    height: 175px;
-    margin: .5rem;
-    border: 1px solid #333;
-    overflow: hidden;
-}
-
-.hero-info-container {
-    display: flex;
-    flex-direction: column;
-    justify-content: space-between;
-    width: 75%;
-    padding: 1rem;
-    
-}
-
-
-
-.hero-title {
-    overflow-wrap: normal;
-    white-space: nowrap;
-    text-transform: uppercase;
-    font-size: .8rem;
-}
-.hero-link {
-    text-decoration: none;
-    color:#333;
-}
-.hero-name {
-    overflow-wrap: normal;
-    white-space: nowrap;
-    text-transform: uppercase;
-}
-
-.hero-specialization {
-    overflow-wrap: normal;
-    white-space: nowrap;
-    text-transform: uppercase;
-    font-size: .75rem;
-}
-
-.faction-icon {
-    height: 33px;
+.heroes-dropdown-label {
     display: block;
-    margin: .5rem 0;
-}
-
-.hero-rarity-rare {
-    background-color: #0000ff;
     text-transform: uppercase;
-    padding: 0.1rem .5rem;
-    font-size: .8rem;
-    display:inline-block;
-}
-
-.hero-rarity-epic {
-    background-color: #FF4500;
-    text-transform: uppercase;
-    padding: 0.1rem .5rem;
-    font-size: .8rem;
-    display:inline-block;
 }
 
 
-.hero-rarity-legendary {
-    background-color: #FFD700;
-    text-transform: uppercase;
-    padding: 0.1rem .5rem;
-    font-size: .8rem;
-    display:inline-block;
+option {
+    appearance: none;
+    padding: 1rem;
+    margin: 1rem;
+
 }
 
-
-
-.hero-image-container {
-    z-index: -1;
-    height: 100%;
-    width: 35%;
+  
+  header {
+      margin: 0 auto;
+  }
+  
+  .header-title {
+      margin: 1rem auto;
+      text-align: center;
+  }
+  
+  #heroes-container {
     display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
     justify-content: center;
-    padding: 0.2rem;
-    
-    
-}
-
-.hero-image {
-    max-height: 100%;
-    z-index: -1;
-    align-items: center;
-}
-
-
+  }
+  
+  .hero-card {
+      display: flex;
+      flex-direction: row;
+      justify-content: space-between;
+      width: 325px;
+      height: 175px;
+      margin: 1rem 0;
+      border: 1px solid #333;
+      overflow: hidden;
+  }
+  
+  .hero-info-container {
+      display: flex;
+      flex-direction: column;
+      justify-content: space-between;
+      width: 75%;
+      padding: 1rem;
+      
+  }
+  
+  
+  
+  .hero-title {
+      overflow-wrap: normal;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-size: .8rem;
+  }
+  .hero-link {
+      text-decoration: none;
+      color:#333;
+  }
+  .hero-name {
+      overflow-wrap: normal;
+      white-space: nowrap;
+      text-transform: uppercase;
+  }
+  
+  .hero-specialization {
+      overflow-wrap: normal;
+      white-space: nowrap;
+      text-transform: uppercase;
+      font-size: .75rem;
+  }
+  
+  .faction-icon {
+      height: 33px;
+      display: block;
+      margin: .5rem 0;
+  }
+  
+  .hero-rarity-rare {
+      background-color: #0000ff;
+      text-transform: uppercase;
+      padding: 0.1rem .5rem;
+      font-size: .8rem;
+      display:inline-block;
+  }
+  
+  .hero-rarity-epic {
+      background-color: #FF4500;
+      text-transform: uppercase;
+      padding: 0.1rem .5rem;
+      font-size: .8rem;
+      display:inline-block;
+  }
+  
+  
+  .hero-rarity-legendary {
+      background-color: #FFD700;
+      text-transform: uppercase;
+      padding: 0.1rem .5rem;
+      font-size: .8rem;
+      display:inline-block;
+  }
+  
+  
+  
+  .hero-image-container {
+      z-index: -1;
+      height: 100%;
+      width: 35%;
+      display: flex;
+      justify-content: center;
+      padding: 0.2rem;
+      
+      
+  }
+  
+  .hero-image {
+      max-height: 100%;
+      z-index: -1;
+      align-items: center;
+  }
+  
+  
+  
