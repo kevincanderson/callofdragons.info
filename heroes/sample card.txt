@@ -1,0 +1,22 @@
+              //   const heroName = selectedHero.name;
+              //   const heroDescription = selectedHero.description;
+
+              //   const heroesContainer = document.getElementById("hero-info");
+              //   heroesContainer.innerHTML = ``;
+              //   heroesContainer.innerHTML += `
+              //   <div href="" class="hero-card">
+              //   <div class="hero-info-container">
+              //   <div class="hero-info-top">
+              //   <p class="hero-title">${selectedHero.heroTitle}</p>
+              //     <a href="./heroguide/${selectedHero.name}" class="hero-link"><h2 class="hero-name">${selectedHero.name}</h2></a>
+              //   <p class="hero-specialization">${selectedHero.specializations.specializationOne} | ${selectedHero.specializations.specializationTwo} | ${selectedHero.specializations.specializationThree}</p>
+              //   </div>
+              //   <div class="hero-info-bottom">
+              //   <img src="faction-icons/${selectedHero.faction}.png" class="faction-icon">
+              //   <p class="hero-rarity-${selectedHero.rarity}">${selectedHero.rarity}</p>
+              //   </div>
+              //   </div>
+              //   <div class="hero-image-container">
+              //   <img src="hero-images/${selectedHero.name}.png" class="hero-image">
+              //   </div>
+              // `;

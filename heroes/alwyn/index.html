@@ -3,44 +3,35 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Fonts - Start -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
-      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,wght@0,300;0,400;0,700;0,900;1,300;1,400;1,700;1,900&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap"
+      href="https://fonts.googleapis.com/css2?family=Merriweather:ital,opsz,wght@0,18..144,300..900;1,18..144,300..900&display=swap"
       rel="stylesheet"
     />
-    <link rel="stylesheet" href="../../style.css" />
-    <!-- Google tag (gtag.js) -->
-    <script
-      async
-      src="https://www.googletagmanager.com/gtag/js?id=G-CB9LVPDH1F"
-    ></script>
-    <script>
-      window.dataLayer = window.dataLayer || [];
-      function gtag() {
-        dataLayer.push(arguments);
-      }
-      gtag("js", new Date());
-
-      gtag("config", "G-CB9LVPDH1F");
-    </script>
-    <title>callofdragons.info | heroes | alistair</title>
+    <!-- Google Fonts - End -->
+    <link rel="stylesheet" href="hero-select.css" />
+    <title>Call of Dragons Info | Hero </title>
+    <link rel="icon" href="favicon.ico" type="image/x-icon" />
   </head>
   <body>
-    <!-- HEADER -->
-    <header><h1>callofdragons.info</h1></header>
-    <!-- PAGINATION -->
-    <p class="hero-pagination">
-      <a href="../..">home</a> | <a href="../">heroes</a> | alwyn
-    </p>
-    <!-- CONTENT START -->
-    <h1>Alwyn</h1>
-    <p class="hero-specializations">magic | pvp | control</p>
-
-    <p>
-      An ever-reliable knight of the Royal Court, Alistair's melancholy eyes
-      hide a long past.
-    </p>
-    <!-- CONTENT END -->
+    <div class="heroSelect">
+      <label for="heroes" class="heroes-dropdown-label">Select a hero:</label>
+          <select name="heroes" id="heroes" />
+              <option value=""></option>
+          </select>
+      </div>
+      <div id="hero-info">
+  
+      </div>
+  
+      <footer>
+        <ul id="hero-footer-links">
+  
+        </ul>
+      </footer>
+  
+      <script src="hero-select.js"></script>
   </body>
 </html>
