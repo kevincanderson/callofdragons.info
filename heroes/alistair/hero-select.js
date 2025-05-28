@@ -1,6 +1,6 @@
 
 const heroList = [];
-const heroListDropdown = document.getElementById("heroes");
+// const heroListDropdown = document.getElementById("heroes");
 const heroFooterLinks = document.getElementById("hero-footer-links");
 const heroInfo = document.getElementById("hero-info");
 fetch("../heroes.json")
@@ -9,7 +9,7 @@ fetch("../heroes.json")
         data.forEach((hero) => {
             const heroName = hero.name.toUpperCase();
             heroList.push(heroName);
-            heroListDropdown.innerHTML += `<option value="${heroName}">${heroName}</option>`;
+            // heroListDropdown.innerHTML += `<option value="${heroName}">${heroName}</option>`;
             heroFooterLinks.innerHTML += `<a href="/heroes/${heroName.toLowerCase()}"><li>${heroName}</li></a>`
         });
         const currentUrl = window.location.href;
