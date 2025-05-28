@@ -41,20 +41,20 @@ fetch("../heroes.json")
     .catch((error) => console.error("Error fetching the JSON file:", error));
 
 
-// select hero and navigate to individual hero page
-    const selectElement = document.getElementById("heroes");
+// // select hero and navigate to individual hero page
+//     const selectElement = document.getElementById("heroes");
 
-    selectElement.addEventListener("change", function(event) {
-      const selectedValue = event.target.value;
-      console.log("Selected value:", selectedValue);
-      // Perform actions based on the selected value
-            const selectedHero = heroList.find(hero => hero.toUpperCase() === selectedValue);
-            if (selectedHero) {
-              if (selectedHero) {
-                window.location.href = "/heroes/" + selectedValue.toLowerCase();
-              }
-            }
-          });
+//     selectElement.addEventListener("change", function(event) {
+//       const selectedValue = event.target.value;
+//       console.log("Selected value:", selectedValue);
+//       // Perform actions based on the selected value
+//             const selectedHero = heroList.find(hero => hero.toUpperCase() === selectedValue);
+//             if (selectedHero) {
+//               if (selectedHero) {
+//                 window.location.href = "/heroes/" + selectedValue.toLowerCase();
+//               }
+//             }
+//           });
 
 
 
