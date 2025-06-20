@@ -33,7 +33,7 @@ p {
   font-size: clamp(
     10px,
     1vw,
-    28px
+    20px
   ); /* Preferred size is 3% of viewport width, but min 14px and max 28px */
   color: #555;
 }
