@@ -11,23 +11,111 @@
       rel="stylesheet"
     />
     <!-- Google Fonts - End -->
-    <link rel="stylesheet" href="hero-select.css" />
-    <title>Call of Dragons Info | Hero</title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="index.css" />
+
+    <title>Call of Dragons | Alistair</title>
   </head>
   <body>
-    <!-- <div class="heroSelect">
-      <label for="heroes" class="heroes-dropdown-label">Select a hero:</label>
-          <select name="heroes" id="heroes" />
-              <option value=""></option>
-          </select>
-      </div> -->
-    <div id="hero-info"></div>
-
-    <footer>
-      <ul id="hero-footer-links"></ul>
-    </footer>
-
-    <script src="hero-select.js"></script>
+    
+      <header>
+        <h1 id="header-title" class="header-title">callofdragons.info</h1>
+        <img  id="nav-hamburger" class="nav-hamburger" src="../../assets/hamburger.png" alt="hamburger menu">
+      </header>
+      
+      <div id="content" class="content">
+        
+      <main>
+        <div id="pagination" class="pagination"><p>home / heroes / <span class="active-page">alistair</span></strong></p></div>
+      <div id="hero-info" class="hero-info">
+        <h3 id="hero-nickname" class="hero-nickname">royal court guard</h3>
+        <h1 id="hero-name" class="hero-name">alistair</h1>
+        <h4 id="hero-specializations" class="hero-specializations">cavalry | rally | tank</h4>
+        <p id="hero-snippet" class="hero-snippet">An ever-reliable knight of the Royal Court, Alistair's melancholy eyes hide a long past.</p>
+        <p id="hero-about" class="hero-about">Alistair is a powerful and honorable cavalry hero in Call of Dragons, known for his strong leadership and frontline prowess. As a noble knight of the League of Order, Alistair embodies valor and discipline, making him a reliable choice for players who favor mounted combat and aggressive tactics. His skills focus on boosting cavalry unit strength, enhancing their damage and mobility, and offering sustainability in prolonged battles. Whether leading charges against enemy forces or defending strategic locations, Alistair excels in both PvE and PvP scenarios. His presence on the battlefield brings a commanding advantage, especially when paired with other cavalry-focused heroes.</p>
+      </div>
+      <div id="hero-skills" class="hero-skills">
+        <h2>skills</h2>
+          <div id="hero-skill" class="hero-skill">
+            <img src="../../assets/skill-a1.png" alt="">
+                        <div class="hero-skill-info">
+              <p class="hero-skill-name">Spear of Judgment</p>
+              <p class="hero-skill-description">Deals AoE Physical damage and reducts targets' counterattack damage.</p>
+            </div>
+          </div>
+          <div id="hero-skill" class="hero-skill">
+            <img src="../../assets/skill-a2.png" alt="">
+            <div class="hero-skill-info">
+              <p class="hero-skill-name">Devotion</p>
+              <p class="hero-skill-description">Increases HP and Physical ATK.</p>
+            </div>
+          </div>
+          <div id="hero-skill" class="hero-skill">
+            <img src="../../assets/skill-a3.png" alt="">
+                        <div class="hero-skill-info">
+              <p class="hero-skill-name">Hold the Line</p>
+              <p class="hero-skill-description">Has a chance to increase DEF when besieging Cities or Strongholds.</p>
+            </div>
+          </div>
+          <div id="hero-skill" class="hero-skill">
+            <img src="../../assets/skill-a4.png" alt="">
+                        <div class="hero-skill-info">
+              <p class="hero-skill-name">Light of Sorland</p>
+              <p class="hero-skill-description">When launching a normal attack, the Legion gains buffs if its has a high percentage of units remaining.</p>
+            </div>
+          </div>
+           <div id="hero-skill" class="hero-skill">
+            <img src="../../assets/skill-aw.png" alt="">
+                        <div class="hero-skill-info">
+              <p class="hero-skill-name">Chivalric Oath</p>
+              <p class="hero-skill-description">Cavalry units deal more normal attack damage and take less damage.</p>
+            </div>
+          </div>
+      </div>
+      <div id="hero-pairings" class="hero-pairings">
+        <h2>pairings</h2>
+        <div id="pairing" class="pairing">
+          <h3 id="pairing-hero" class="pairing-hero">Emrys</h3>
+          <h5 id="primary-hero" class="primary-hero">Primary: Emrys</h5>
+          <h5 id="pairing-pet" class="pairing-pet">Pet: Golden Roc</h5>
+          <h5 id="pairing-artifact" class="pairing-artifact">Artifact: Springblades, Sorland's Blade</h5>
+          <p id="pairing-details" class="pairing-details">This pairing slays.</p>
+          <h5 id="pairing-generation" class="pairing-generation">Generation: G1+</h5>
+        </div>
+        <div id="pairing" class="pairing">
+          <h3 id="pairing-hero" class="pairing-hero">Bakshi</h3>
+          <h4 id="primary-hero" class="primary-hero">Primary: Bakshi</h4>
+          <h4 id="pairing-pet" class="pairing-pet">Pet: Golden Roc</h4>
+          <h4 id="pairing-artifact" class="pairing-artifact">Artifact: Springblades, Sorland's Blade</h4>
+          <p id="pairing-details" class="pairing-details">This pairing slays.</p>
+          <h4 id="pairing-generation" class="pairing-generation">Generation: G1+</h4>
+        </div>
+                <div id="pairing" class="pairing">
+          <h3 id="pairing-hero" class="pairing-hero">Urag</h3>
+          <h4 id="primary-hero" class="primary-hero">Primary: Urag</h4>
+          <h4 id="pairing-pet" class="pairing-pet">Pet: Golden Roc</h4>
+          <h4 id="pairing-artifact" class="pairing-artifact">Artifact: Springblades, Sorland's Blade</h4>
+          <p id="pairing-details" class="pairing-details">This pairing is a force on the battlefield. With their multi-target skills and Alistair providing some tankiness for Urag's heavy damage output, it't not to be overlooked. Alistair's A4 skill <strong>Light of Sorland</strong> provides Urag with great rage generation paied with <strong>Golden Roc</strong>, you got yourself an AoE machine gun.</p>
+          <h4 id="pairing-generation" class="pairing-generation">Generation: G3+</h4>
+        </div>
+      </div>
+      <div id="hero-talents" class="hero-talents">
+        <h2>talents</h2>
+      </div>
+      <div id="ad-three" class="ad-three"></div>
+      <div id="hero-artifacts" class="hero-artifacts">
+        <h2>artifacts</h2>
+      </div>
+      <div id="hero-pets" class="hero-pets">
+        <h2>pets</h2>
+      </div>
+      <div id="ad-four" class="ad-four"></div>
+    </main>
+    
+    <aside>
+      <div id="hero-list" class="hero-list"></div>
+      <div id="ad-one" class="ad-one"></div>
+      <div id="ad-two" class="ad-two"></div>
+    </aside>
+    </div>
   </body>
 </html>

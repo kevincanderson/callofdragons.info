@@ -27,7 +27,6 @@ fetch("../heroes.json")
                                       </div>
                                       <div class="hero-info-right">
                                       <p class="hero-rarity hero-rarity-${hero.rarity}">${hero.rarity.toUpperCase()}</p>
-                                      <img src="../../faction-icons/${hero.faction}.png" alt="${hero.faction}" class="faction-icon">
                                       </div>
                                       </div>
                                       
