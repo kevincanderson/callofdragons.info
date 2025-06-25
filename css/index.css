@@ -10,6 +10,7 @@ body {
   margin: 1rem auto;
   height: 100dvh;
   overflow: hidden;
+  color: #333;
 }
 
 header {
@@ -17,25 +18,7 @@ header {
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  margin: 1rem;
-}
-
-h1 {
-  font-size: clamp(
-    16px,
-    2vw,
-    32px
-  ); /* Preferred size is 4% of viewport width, but min 16px and max 32px */
-  color: #333;
-}
-
-p {
-  font-size: clamp(
-    10px,
-    1vw,
-    20px
-  ); /* Preferred size is 3% of viewport width, but min 14px and max 28px */
-  color: #555;
+  margin: 1rem 0;
 }
 
 main {
@@ -46,12 +29,6 @@ main {
     height: calc(100dvh - 200px); /* Adjust for header and footer */
 }
 
-.announcement {
-  font-size: clamp(36px, 4vw, 72px);
-  padding: 1rem;
-  border-radius: 8px;
-  margin: 1rem 0;
-}
 
 footer {
  height: 200px;
