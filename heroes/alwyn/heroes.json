@@ -654,37 +654,6 @@
 		"quickGuide": ""
 	},
 	{
-		"name": "lieh-shan yen",
-		"heroImage": "",
-		"specializations": {
-			"specializationOne": "marksman",
-			"specializationTwo": "pvp",
-			"specializationThree": "mobility"
-		},
-		"heroTitle": "starfall sniper",
-		"heroRelease": "G3",
-		"faction": "leagueOfOrder",
-		"factionCrest": "",
-		"skills": {
-			"skillOne": "Piercing Shot",
-			"skillTwo": "Expert Mechanic",
-			"skillThree": "Agile Deployment",
-			"skillFour": "Greymar's Ballista",
-			"awakened": "Bullseye Barrage"
-		},
-		"artifacts": [
-			"Phoenix Eye"
-		],
-		"pets": [
-			"Snowpeak Roc"
-		],
-		"pairings": [
-			"Kinnara"
-		],
-		"rarity": "legendary",
-		"quickGuide": ""
-	},
-	{
 		"name": "liliya",
 		"heroImage": "",
 		"specializations": {
@@ -837,37 +806,6 @@
 			"Kinnara"
 		],
 		"rarity": "epic",
-		"quickGuide": ""
-	},
-	{
-		"name": "neya",
-		"heroImage": "",
-		"specializations": {
-			"specializationOne": "marksman",
-			"specializationTwo": "pvp",
-			"specializationThree": "mobility"
-		},
-		"heroTitle": "starfall sniper",
-		"heroRelease": "G3",
-		"faction": "leagueOfOrder",
-		"factionCrest": "",
-		"skills": {
-			"skillOne": "Piercing Shot",
-			"skillTwo": "Expert Mechanic",
-			"skillThree": "Agile Deployment",
-			"skillFour": "Greymar's Ballista",
-			"awakened": "Bullseye Barrage"
-		},
-		"artifacts": [
-			"Phoenix Eye"
-		],
-		"pets": [
-			"Snowpeak Roc"
-		],
-		"pairings": [
-			"Kinnara"
-		],
-		"rarity": "legendary",
 		"quickGuide": ""
 	},
 	{

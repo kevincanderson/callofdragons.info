@@ -172,20 +172,7 @@ body {
 
 /* ----- TEXT ----- */
 
-h1 {
-  font-size: 1.25rem;
-  letter-spacing: .05rem;
-}
 
-h2 {
-  text-transform: uppercase;
-  margin: 1rem 0 ;
-}
-
-p {
-  font-size: 0.75rem;
-  letter-spacing: .05rem;
-}
 
 /* ----- ELEMENTS ----- */
 
@@ -198,6 +185,10 @@ header {
   background: #242424;
   position: relative;
   z-index: 2;
+}
+
+.header-title {
+  font-size: 1.5rem;
 }
 
 .nav-item {
@@ -239,9 +230,40 @@ footer {
 
 /* ----- HEROES ----- START ----- */
 
+
+.heroes-link {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ddd;
+  margin: 0 .5rem;
+  padding: .5rem .5rem;
+  letter-spacing: .1rem;
+  font-weight: 700;
+  border-bottom: 1px solid #242424;
+}
+
+
+
 /* ----- HEROES ----- END ----- */
 
 /* ----- HERO ----- START ----- */
+
+.hero-name {
+  text-transform: uppercase;
+  margin: 0;
+  font-size: 2rem;
+}
+.hero-nickname {
+  font-size: 1rem;
+  text-transform: uppercase;
+  margin: 0;
+}
+.hero-specializations {
+  font-size: 0.8rem;
+  display: flex; 
+  flex-direction: row;
+  text-transform: uppercase;
+}
 
 /* ----- HERO ----- END ----- */
 

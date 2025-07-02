@@ -3,6 +3,21 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-MPJTVXKT");
+    </script>
+    <!-- End Google Tag Manager -->
+
     <!-- Google Fonts - Start -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
@@ -11,27 +26,71 @@
       rel="stylesheet"
     />
     <!-- Google Fonts - End -->
-    <link rel="stylesheet" href="hero-select.css" />
-    <title>Call of Dragons Info | Hero </title>
-    <link rel="icon" href="favicon.ico" type="image/x-icon" />
+    <link rel="stylesheet" href="../../css/index.css" />
+    <title>callofdragons.info - your ultimate call of dragons companion</title>
   </head>
   <body>
-    <div class="heroSelect">
-      <label for="heroes" class="heroes-dropdown-label">Select a hero:</label>
-          <select name="heroes" id="heroes" />
-              <option value=""></option>
-          </select>
+    <!-- Google Tag Manager (noscript) -->
+    <noscript
+      ><iframe
+        src="https://www.googletagmanager.com/ns.html?id=GTM-MPJTVXKT"
+        height="0"
+        width="0"
+        style="display: none; visibility: hidden"
+      ></iframe
+    ></noscript>
+    <!-- End Google Tag Manager (noscript) -->
+    <header>
+      <div>
+        <h1>callofdragons.info</h1>
+        <p>your ultimate call of dragons companion</p>
       </div>
-      <div id="hero-info">
-  
+      <div>
+        <a href="../../news" class="nav-item">news</a>
+        <a href="../../guides" class="nav-item">guides</a>
+        <a href="../../heroes" class="nav-item">heroes</a>
+        <a href="../../pets" class="nav-item">pets</a>
       </div>
-  
-      <footer>
-        <ul id="hero-footer-links">
-  
-        </ul>
-      </footer>
-  
-      <script src="hero-select.js"></script>
+      <!-- <label class="hamburger">
+        <input type="checkbox" />
+        <span></span>
+        <span></span>
+        <span></span>
+        <div class="menu">
+          <a href="#">Home</a>
+          <a href="#">About</a>
+          <a href="#">Projects</a>
+          <a href="#">Contact</a>
+        </div>
+      </label> -->
+    </header>
+    <div class="container">
+      <main>
+        <h2 id="hero-name" class="hero_hero-name"></h2>
+        <h3 id="hero-nickname" class="hero-nickname"></h3>
+      </main>
+      <aside>
+        <div class="aside-container">
+          <div class="aside-artifacts">
+            <h2 class="hero_hero-artifacts">artifacts</h2>
+          </div>
+
+          <div class="aside-pets">
+            <h2>Pets</h2>
+          </div>
+        </div>
+      </aside>
+    </div>
+
+    <footer>
+      <div class="footer-nav">
+        <a href="" class="footer-nav-item">callofdragons.info</a>
+        <a href="" class="footer-nav-item">news</a>
+        <a href="" class="footer-nav-item">guides</a>
+        <a href="" class="footer-nav-item">heroes</a>
+        <a href="" class="footer-nav-item">pets</a>
+      </div>
+    </footer>
+    <script src="./heroDetails.js"></script>
   </body>
 </html>
