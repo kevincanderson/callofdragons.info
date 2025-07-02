@@ -1,35 +1,254 @@
+
+.heroes-container {
+
+}
+
+.hero-list {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  margin-left: -1rem;
+}
+
+
+
+
+.container {
+  display: grid;
+  grid-template-columns: 2fr 1fr;
+  grid-gap: 1rem;
+}
+
+
+
+aside {
+  background: #242424;
+  margin: 1rem 0;
+  padding: 2rem;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.aside-heroes {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.aside-hero {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ddd;
+  margin: 0 .5rem;
+  padding: .5rem .5rem;
+  letter-spacing: .1rem;
+  font-weight: 700;
+  border-bottom: 1px solid #242424;
+}
+
+.aside-hero:hover {
+  border-bottom:1px solid #ddd;
+}
+
+
+
+.footer-nav {
+  display: flex;
+  flex-direction: column;
+  margin: 1rem 0;
+}
+
+.footer-nav-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ddd;
+  margin: .1rem 0;
+  padding: .5rem .5rem;
+  letter-spacing: .1rem;
+}
+
+.hamburger input {
+  display: none;
+}
+
+.hamburger span {
+  display: block;
+  width: 30px;
+  height: 3px;
+  background: #fff;
+  margin: 5px 0;
+  transition: 0.4s;
+  position: relative;
+  z-index: 6;
+}
+
+/* Hamburger open animation */
+.hamburger input:checked ~ span:nth-child(2) {
+  transform: translateY(8px) rotate(45deg);
+  background: #ffae42;
+}
+.hamburger input:checked ~ span:nth-child(3) {
+  opacity: 0;
+  transform: scaleX(0);
+}
+.hamburger input:checked ~ span:nth-child(4) {
+  transform: translateY(-8px) rotate(-45deg);
+  background: #ffae42;
+}
+
+/* Overlay menu styles */
+.menu {
+  position: fixed;
+  top: 0;
+  right: 0;
+  width: 375px;
+  height: calc(100vh - 1rem);
+  background: rgba(30, 30, 30, 0.97);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: flex-start;
+  padding-top: 5rem;
+  transform: translateX(100%);
+  transition: transform 0.5s cubic-bezier(0.77, 0, 0.18, 1);
+  z-index: 5;
+  margin: 1rem;
+}
+
+.hamburger input:checked ~ .menu {
+  transform: translateY(0);
+}
+
+.menu a {
+  color: #fff;
+  text-decoration: none;
+  font-size: 2rem;
+  margin: 20px 0;
+  letter-spacing: 2px;
+  opacity: 0;
+  transform: translateY(40px);
+  transition: opacity 0.4s 0.1s, transform 0.4s 0.1s;
+}
+
+.hamburger input:checked ~ .menu a {
+  opacity: 1;
+  transform: translateY(0);
+}
+
+.menu a:nth-child(1) {
+  transition-delay: 0.3s;
+}
+.menu a:nth-child(2) {
+  transition-delay: 0.4s;
+}
+.menu a:nth-child(3) {
+  transition-delay: 0.5s;
+}
+.menu a:nth-child(4) {
+  transition-delay: 0.6s;
+}
+
+
+.hero_hero-name {
+  text-transform: uppercase;
+}
+
+/* ----- UNIVERSAL ----- START ----- */
+
 * {
   box-sizing: border-box;
   margin: 0;
   padding: 0;
-  font-family: "Merriweather", sans-serif;
-}
+} 
 
 body {
+  font-family: "Merriweather", sans-serif;
+  background: #1a1a1a;
+  color: #ddd;
   max-width: 1280px;
   margin: 1rem auto;
-  height: 100dvh;
-  overflow: hidden;
-  color: #333;
 }
+
+/* ----- TEXT ----- */
+
+h1 {
+  font-size: 1.25rem;
+  letter-spacing: .05rem;
+}
+
+h2 {
+  text-transform: uppercase;
+  margin: 1rem 0 ;
+}
+
+p {
+  font-size: 0.75rem;
+  letter-spacing: .05rem;
+}
+
+/* ----- ELEMENTS ----- */
 
 header {
   display: flex;
-  flex-direction: row;
-  justify-content: space-between;
   align-items: center;
-  margin: 1rem 0;
+  justify-content: space-between;
+  padding: 2rem;
+  height: 60px;
+  background: #242424;
+  position: relative;
+  z-index: 2;
 }
+
+.nav-item {
+  text-decoration: none;
+  text-transform: uppercase;
+  color: #ddd;
+  margin: 0 .5rem;
+  padding: .5rem .5rem;
+  letter-spacing: .1rem;
+  font-weight: 700;
+}
+
 
 main {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    align-items: center;
-    height: calc(100dvh - 200px); /* Adjust for header and footer */
+  background: #242424;
+  margin: 1rem 0;
+  padding: 2rem;
 }
-
 
 footer {
- height: 200px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1.5rem;
+  background: #242424;
+  position: relative;
+  z-index: 2;
 }
+
+/* ----- UNIVERSAL ----- END ----- */
+
+/* ----- NEWS ----- START ----- */
+
+/* ----- NEWS ----- END ----- */
+
+/* ----- GUIDES ----- START ----- */
+
+/* ----- GUIDES ----- END ----- */
+
+/* ----- HEROES ----- START ----- */
+
+/* ----- HEROES ----- END ----- */
+
+/* ----- HERO ----- START ----- */
+
+/* ----- HERO ----- END ----- */
+
+/* ----- PETS ----- START ----- */
+
+/* ----- PETS ----- END ----- */
+
+/* ----- PET ----- START ----- */
+
+/* ----- PET ----- END ----- */
